@@ -35,7 +35,13 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 		</dependency>
-				 
+
+		<!-- Add support for JSP ... get rid-->
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>javax.servlet.jsp-api</artifactId>
+			<version></version>
+		</dependency>
 	</dependencies>
 
 	<!-- Support for Maven WAR Plugin -->
