@@ -59,7 +59,7 @@ public class StudentRestController {
 
     // Add an exception handler using @ExceptionHandler
     @ExceptionHandler
-    // handle generic exception instead of customed exception
+    // handle generic exception ("students/jkjkjkj") instead of customed exception
     public ResponseEntity<StudentErrorResponse> handleExeption(Exception exception) {
         // create a StudentErrorResponse
 
